@@ -8,10 +8,10 @@ const port = 3000;
 
 
 const connection=mysql.createConnection({
-    host:"covid19.cnm3irxx2zg2.us-east-1.rds.amazonaws.com",
+    host:"hospitaldb.chrlgvg2tiag.us-east-1.rds.amazonaws.com",
     user:"sinch",
     password:"sinch123",
-    database:"covid19",
+    database:"hosp",
     port:"3306",
     connectionLimit: 15,
     queueLimit: 30,
